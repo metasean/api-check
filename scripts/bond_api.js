@@ -1,8 +1,8 @@
 window.onload = function bond_api() {
 
-  const modifier = 'characters/1'
+  const modifier = 'people/1'
 
-  const url = `http://007api.co/api/` + modifier
+  const url = `http://swapi.co/api/` + modifier
 
   $.ajax({
     url: url
